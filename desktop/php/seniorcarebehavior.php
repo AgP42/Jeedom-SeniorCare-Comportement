@@ -2,7 +2,7 @@
 if (!isConnect('admin')) {
 	throw new Exception('{{401 - Accès non autorisé}}');
 }
-$plugin = plugin::byId('seniorcare');
+$plugin = plugin::byId('seniorcarebehavior');
 sendVarToJS('eqType', $plugin->getId());
 $eqLogics = eqLogic::byType($plugin->getId());
 ?>
@@ -450,5 +450,5 @@ $eqLogics = eqLogic::byType($plugin->getId());
 </div>
 </div>
 
-<?php include_file('desktop', 'seniorcare', 'js', 'seniorcare');?>
+<?php include_file('desktop', 'seniorcarebehavior', 'js', 'seniorcarebehavior');?>
 <?php include_file('core', 'plugin.template', 'js');?>

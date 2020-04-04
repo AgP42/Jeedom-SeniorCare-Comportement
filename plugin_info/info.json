@@ -1,6 +1,6 @@
 {
-	"id" : "seniorcare",
-	"name" : "Senior Care",
+	"id" : "seniorcarebehavior",
+	"name" : "Senior Care - Dérive comportementale",
 	"description" : "Plugin pour l'assistance aux personnes âgées",
 	"licence" : "AGPL",
 	"author" : "Agp42",
@@ -10,8 +10,8 @@
 	"hasDependency" : false,
 	"hasOwnDeamon" : false,
 	"maxDependancyInstallTime" : 0,
-	"changelog" : "https://agp42.github.io/seniorcare/#language#/changelog",
-	"documentation" : "https://agp42.github.io/seniorcare/#language#/",
+	"changelog" : "https://agp42.github.io/seniorcarebehavior/#language#/changelog",
+	"documentation" : "https://agp42.github.io/seniorcarebehavior/#language#/",
 	"link" : {
 		"forum":"Lien vers le forum",
 		"video" : "Lien vers une video"
