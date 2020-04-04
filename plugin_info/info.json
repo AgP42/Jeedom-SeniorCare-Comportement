@@ -1,19 +1,19 @@
 {
 	"id" : "seniorcarebehavior",
 	"name" : "Senior Care - Dérive comportementale",
-	"description" : "Plugin pour l'assistance aux personnes âgées",
+	"description" : "Plugin pour l'assistance aux personnes âgées - Analyse de dérives comportementales",
 	"licence" : "AGPL",
 	"author" : "Agp42",
 	"require" : "3.2",
 	"category" : "security",
-  "display" : "panel",
+//  "display" : "panel",
 	"hasDependency" : false,
 	"hasOwnDeamon" : false,
 	"maxDependancyInstallTime" : 0,
 	"changelog" : "https://agp42.github.io/seniorcarebehavior/#language#/changelog",
 	"documentation" : "https://agp42.github.io/seniorcarebehavior/#language#/",
 	"link" : {
-		"forum":"Lien vers le forum",
+    "forum":"https://community.jeedom.com/t/developper-un-logiciel-danalyse-comportementale/19111",
 		"video" : "Lien vers une video"
 	},
 	"language" : ["fr_FR","en_US"],
