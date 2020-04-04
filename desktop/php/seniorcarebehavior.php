@@ -179,31 +179,17 @@ $eqLogics = eqLogic::byType($plugin->getId());
         <label class="checkbox-inline"><input type="checkbox" class="eqLogicAttr" data-l1key="configuration" data-l2key="rythme" checked/>{{Surveiller Rythme de vie}}</label>
       </div>
 
-  <div class="">
-    <div class="form-group ">
-
-      <label class="col-sm-1 control-label">{{Nom}}</label>
-      <div class="col-sm-2">
-        <div class="input-group">
-          <span class="input-group-btn">
-          <a class="btn btn-default bt_removeAction roundedLeft" data-type="life_sign" title="{{Supprimer le capteur}}"><i class="fas fa-minus-circle"></i></a>
-          </span>
-          <input class="expressionAttr form-control cmdInfo" data-l1key="name" title="{{Le nom doit être unique}}"/>
+      <div class="form-group">
+      <label class="col-sm-2 control-label">{{Capteur lit}}</label>
+        <div class="col-sm-4">
+          <div class="input-group">
+            <input type="text" class="eqLogicAttr form-control tooltips roundedLeft" data-l1key="configuration" data-l2key="capteur_lit"/>
+            <span class="input-group-btn">
+              <a class="btn btn-default listCmdInfo roundedRight"><i class="fa fa-list-alt"></i></a>
+            </span>
+          </div>
         </div>
       </div>
-
-      <label class="col-sm-1 control-label">Capteur</label>
-      <div class="col-sm-2">
-        <div class="input-group">
-          <input class="expressionAttr roundedLeft form-control cmdInfo" data-l1key="cmd" />
-          <span class="input-group-btn">
-          <a class="btn btn-default listCmdInfoWindow roundedRight" title="{{Selectionner le capteur}}"><i class="fas fa-list-alt"></i></a>
-          </span>
-        </div>
-      </div>
-
-    </div>
-  </div>
 
     </div>
 
@@ -214,6 +200,17 @@ $eqLogics = eqLogic::byType($plugin->getId());
         <label class="checkbox-inline"><input type="checkbox" class="eqLogicAttr" data-l1key="configuration" data-l2key="isolement" checked/>{{Surveiller Isolement}}</label>
       </div>
 
+      <div class="form-group">
+      <label class="col-sm-2 control-label">{{Capteur porte d'entrée principale}}</label>
+        <div class="col-sm-4">
+          <div class="input-group">
+            <input type="text" class="eqLogicAttr form-control tooltips roundedLeft" data-l1key="configuration" data-l2key="capteur_porte_entree"/>
+            <span class="input-group-btn">
+              <a class="btn btn-default listCmdInfo roundedRight"><i class="fa fa-list-alt"></i></a>
+            </span>
+          </div>
+        </div>
+      </div>
 
     </div>
 
@@ -224,6 +221,29 @@ $eqLogics = eqLogic::byType($plugin->getId());
         <label class="checkbox-inline"><input type="checkbox" class="eqLogicAttr" data-l1key="configuration" data-l2key="infection" checked/>{{Surveiller Infection urinaire}}</label>
       </div>
 
+<!--       <div class="form-group">
+      <label class="col-sm-2 control-label">{{Capteur lit}}</label>
+        <div class="col-sm-4">
+          <div class="input-group">
+            <input type="text" class="eqLogicAttr form-control tooltips roundedLeft" data-l1key="configuration" data-l2key="capteur_lit_2"/>
+            <span class="input-group-btn">
+              <a class="btn btn-default listCmdInfo roundedRight"><i class="fa fa-list-alt"></i></a>
+            </span>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="form-group">
+      <label class="col-sm-2 control-label">{{Capteur chasse d'eau}}</label>
+        <div class="col-sm-4">
+          <div class="input-group">
+            <input type="text" class="eqLogicAttr form-control tooltips roundedLeft" data-l1key="configuration" data-l2key="capteur_toilettes"/>
+            <span class="input-group-btn">
+              <a class="btn btn-default listCmdInfo roundedRight"><i class="fa fa-list-alt"></i></a>
+            </span>
+          </div>
+        </div>
+      </div>
 
     </div>
 
@@ -234,6 +254,29 @@ $eqLogics = eqLogic::byType($plugin->getId());
         <label class="checkbox-inline"><input type="checkbox" class="eqLogicAttr" data-l1key="configuration" data-l2key="alimentation" checked/>{{Surveiller Alimentation}}</label>
       </div>
 
+      <div class="form-group">
+      <label class="col-sm-2 control-label">{{Capteur frigo}}</label>
+        <div class="col-sm-4">
+          <div class="input-group">
+            <input type="text" class="eqLogicAttr form-control tooltips roundedLeft" data-l1key="configuration" data-l2key="capteur_frigo"/>
+            <span class="input-group-btn">
+              <a class="btn btn-default listCmdInfo roundedRight"><i class="fa fa-list-alt"></i></a>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+      <label class="col-sm-2 control-label">{{Capteur présence/mouvement cuisine}}</label>
+        <div class="col-sm-4">
+          <div class="input-group">
+            <input type="text" class="eqLogicAttr form-control tooltips roundedLeft" data-l1key="configuration" data-l2key="capteur_mvt_cuisine"/>
+            <span class="input-group-btn">
+              <a class="btn btn-default listCmdInfo roundedRight"><i class="fa fa-list-alt"></i></a>
+            </span>
+          </div>
+        </div>
+      </div>
 
     </div>
 
@@ -241,7 +284,7 @@ $eqLogics = eqLogic::byType($plugin->getId());
     <div class="tab-pane" id="actiontab">
       <br/>
       <div class="alert alert-info">
-        {{Onglet de configuration de actions d'alerte pour prévenir les aidants.}}
+        {{Onglet de configuration de actions d'alerte pour prévenir les aidants - TODO}}
       </div>
 
       <form class="form-horizontal">
